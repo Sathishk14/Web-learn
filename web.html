@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>web.in</title>
+    <style>
+      #background{
+          background-color:rgb(187, 216, 187);
+      }
+      .header1{
+          font-size: 30px;
+          text-align: center;
+         border: 1px solid black;
+         background-color: greenyellow;
+      }
+    </style>
+    <script>
+        var vijay = document.getElementById("video1");
+        function start(){
+          if(vijay.pause)
+              vijay.play();
+        else
+            vijay.pause();
+        }
+    </script>
+</head>
+<body>
+<div id="background">
+<h1 class="header1">WELCOME TO MY WEBSITE</h1>
+<div id="video">
+<h2>VIDEO UPLOAD</h2>
+<button onclick="play()">0.04</button>
+<video name ="video1" width="40%" height="350" controls autoplay muted>
+     <source src=".//Aalaporan Thamizhan - Mersal 1080p HD.mp4">
+Video not supportted
+</video>
+<span class="iframe1">
+<iframe src=".//iframe.html" name="iframe" height="400px" width="50%"
+ title="Iframe Example">
+</iframe>
+</span>
+<p><a href=".//learn.html" target="iframe">HTML learn</a></p>
+<h1>Auido file</h1>
+<audio src=".//Kannamma - MassTamilan.com.mp3" controls>not supported format</audio>
+</body>
+</html>
